@@ -1,7 +1,8 @@
 import * as Phaser from "phaser";
 
 // import DungeonScene from "./02-simple-mapping/dungeon-scene";
-import DungeonScene from "./03-mapping/dungeon-scene";
+// import DungeonScene from "./03-mapping/dungeon-scene";
+import DungeonScene from "./04-stuff/dungeon-scene";
 
 const config = {
     type: Phaser.AUTO,
