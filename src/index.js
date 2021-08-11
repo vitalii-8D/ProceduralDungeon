@@ -2,7 +2,10 @@ import * as Phaser from "phaser";
 
 // import DungeonScene from "./02-simple-mapping/dungeon-scene";
 // import DungeonScene from "./03-mapping/dungeon-scene";
-import DungeonScene from "./04-stuff/dungeon-scene";
+// import DungeonScene from "./04-stuff/dungeon-scene";
+import DungeonScene from "./05-enemies/dungeon-scene";
+
+import GameUI from "./05-enemies/game-ui";
 
 const config = {
     type: Phaser.AUTO,
@@ -22,7 +25,7 @@ const config = {
             // gravity: {y: 0}
         }
     },
-    scene: [DungeonScene]
+    scene: [DungeonScene, GameUI]
 };
 
 export default new Phaser.Game(config);
